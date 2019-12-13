@@ -1,0 +1,18 @@
+README - Amber Sakkinen
+
+To use the ticket class that I have created you need to know these variable names:
+
+  For the total of the fine:           fine
+  For the date the ticket was issued:  ticketDate
+  For time that the ticket is overdue: overdue
+  For the time the meter has:          meterTime
+  
+  There are gets set for all the outsourced information:
+      getMake
+      getModel 
+      getColor
+      getLicensePlateNum
+      getMeterNum
+      getMeterTime
+      getPoliceName
+      getPoliceBadge

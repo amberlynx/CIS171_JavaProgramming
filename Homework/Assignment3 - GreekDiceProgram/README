@@ -1,0 +1,38 @@
+                                                README
+
+Variables and Functions:
+______________________________________________________________________________________________________________________
+
+Dice Class -- Complete
+   Dice();                                                                    // Dice Constructor
+   int roll();                                                                // Roll the dice
+   int getRoll();                                                             // Get currently stored roll
+   setRoll();                                                                 // Set new roll
+-----------------------------------------------------------------------------------------------------------------------
+Game -- Incomplete
+   void firstRoll();                                                          // Outcome for first roll
+   void secondRoll(Dice dice1, Dice dice2, Player player1, Player player2)    // Outcome for second roll
+-----------------------------------------------------------------------------------------------------------------------
+Player -- Incomplete
+   String getName();                                                          // Get the player's name
+   String getKingdom();                                                       // Get the player's kingdom
+   int getScore();                                                            // Get the player's score
+   int getHighscore();                                                        // Get the player's highscore
+   int getHP();                                                               // Get the player's hp
+   
+   setName();                                                                 // Set the player's name
+   setKingdom();                                                              // Set the player's kingdom
+   setScore();                                                                // Set the player's score
+   setHighscore();                                                            // Set the player's highscore
+   setHP();                                                                   // Set the player's hp
+   
+   Player();                                                                  // Player Constructor
+   Player(String n, String k)                                                 // Player info with name and kingdom
+   Player(String n, String k, int hp, int s, int hs)                          // Player session
+   int replaceScore(int score)                                                // Replace player's highscore
+   String toString()                                                          // Output player data
+-----------------------------------------------------------------------------------------------------------------------   
+DiceGame -- Incomplete
+
+
+______________________________________________________________________________________________________________________
